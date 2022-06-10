@@ -11,7 +11,7 @@
 
 <nav class="navbar navbar-expand-lg w-100 position-fixed">
   <div class="container-fluid">
-    <span class="navbar-brand"> meusic</span>
+    <span class="navbar-brand">meusic</span>
     {#if user}
       <span>
         <div

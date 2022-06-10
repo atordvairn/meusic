@@ -1,6 +1,6 @@
 {
   "name": "meusic",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "devDependencies": {
     "cross-env": "^7.0.3",
     "css-loader": "^5.0.1",
@@ -12,12 +12,15 @@
     "webpack-dev-server": "^3.11.2"
   },
   "scripts": {
+    "start": "sirv public --single",
     "build": "cross-env NODE_ENV=production webpack",
     "dev": "webpack serve --content-base public"
   },
   "dependencies": {
     "@mdi/js": "^6.7.96",
     "@supabase/supabase-js": "^1.35.3",
+    "axios": "^0.27.2",
+    "sirv-cli": "^2.0.2",
     "svelte-materialify": "^0.3.11",
     "svelte-navigator": "^3.1.6"
   }

@@ -2,7 +2,7 @@
   import { supabase } from "./lib/supabase";
 
   //logos
-  import { mdiGoogle, mdiGithub } from "@mdi/js";
+  import { mdiGoogle, mdiGithub, mdiTwitter } from "@mdi/js";
 
   import MusicApp from "./music__app/MusicAPP.svelte";
   import { Button, MaterialApp, Icon } from "svelte-materialify";
